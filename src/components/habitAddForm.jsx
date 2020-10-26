@@ -1,8 +1,8 @@
 import React, { memo } from "react";
 
 const HabitAddForm = memo((props) => {
-  const inputRef = React.createRef();
   const formRef = React.createRef();
+  const inputRef = React.createRef();
 
   const onSubmit = (event) => {
     event.preventDefault();
